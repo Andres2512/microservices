@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name ="services-products")
+@FeignClient(name ="service-products")
 public interface ProductClientRest {
 
     @GetMapping("/list")
