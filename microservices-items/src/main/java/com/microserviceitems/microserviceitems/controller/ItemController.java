@@ -1,7 +1,7 @@
 package com.microserviceitems.microserviceitems.controller;
 
+import com.app.common.models.entity.Product;
 import com.microserviceitems.microserviceitems.model.Item;
-import com.microserviceitems.microserviceitems.model.Products;
 import com.microserviceitems.microserviceitems.service.ItemService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.slf4j.Logger;
@@ -12,9 +12,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.List;
@@ -52,21 +50,21 @@ public class ItemController {
 
     public Item alterDetails(@PathVariable Long id, @PathVariable Integer quantity) {
         Item item = new Item();
-        Products products = new Products();
+        Product product = new Product();
 
         item.setQuantity(quantity);
-        products.setId(id);
-        products.setName("Sonic");
-        products.setPrice(200.00);
+        product.setId(id);
+        product.setName("Sonic");
+        product.setPrice(200.00);
 
-        item.setProducts(products);
+        item.setProducts(product);
 
         return item;
 
     }
 
     @GetMapping("/get-config")
-    public ResponseEntity<?> getConfig(@Value("${server.port}") String puerto){
+    public ResponseEntity<?> getConfig(@Value("${server.port}") String puerto) {
 
         log.info(text);
 
@@ -74,11 +72,29 @@ public class ItemController {
         json.put("text", text);
         json.put("puerto", puerto);
 
-        if(env.getActiveProfiles().length>0 && env.getActiveProfiles()[0].equals("dev")) {
+        if (env.getActiveProfiles().length > 0 && env.getActiveProfiles()[0].equals("dev")) {
             json.put("author.name", env.getProperty("configuration.author.name"));
             json.put("author.email", env.getProperty("configuration.author.email"));
         }
 
         return new ResponseEntity<Map<String, String>>(json, HttpStatus.OK);
+    }
+
+    @PostMapping("/create")
+    @ResponseStatus(HttpStatus.CREATED)
+    public Product create(@RequestBody Product product) {
+        return itemService.save(product);
+    }
+
+    @PutMapping("/edit/{id}")
+    @ResponseStatus(HttpStatus.CREATED)
+    public Product update(@RequestBody Product product, @PathVariable Long id) {
+        return itemService.update(product, id);
+    }
+
+    @DeleteMapping("/delete/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void delete(@PathVariable Long id) {
+        itemService.delete(id);
     }
 }

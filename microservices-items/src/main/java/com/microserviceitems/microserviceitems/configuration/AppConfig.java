@@ -10,7 +10,7 @@ public class AppConfig {
 
     @Bean("clientRest")
     @LoadBalanced
-    public RestTemplate registrarRestTemplate(){
+    public RestTemplate registrarRestTemplate() {
         return new RestTemplate();
     }
 

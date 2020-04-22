@@ -1,4 +1,4 @@
-package com.microservices.microservicesproducts.models.entity;
+package com.app.common.models.entity;
 
 import lombok.Data;
 
