@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a594cdd6-7a25-4b68-a27c-218464cfd4e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-products/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oauth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/client/UserFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/client/UserFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/AuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/SpringSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/event/AuthenticationSuccessErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/event/AuthenticationSuccessErrorHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/services/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/services/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/microservices/zuulserver/zuulserver/oauth/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/microservices/zuulserver/zuulserver/oauth/ResourceServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-products/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-products/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-products/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-products/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +43,19 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zuul-server/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservices-products/src/main/resources" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Microservices\microservices\microservices-products\src\main\resources" />
       <recent name="D:\Microservices\microservices\zuul-server\src\main\resources" />
       <recent name="D:\Microservices\microservices\service-oauth\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulServerApplication">
+  <component name="RunManager" selected="Spring Boot.MicroservicesProductsApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.configserver.configserver.ConfigServerApplication" />
@@ -121,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587626402997</updated>
-      <workItem from="1587626408350" duration="10799000" />
+      <workItem from="1587626408350" duration="12689000" />
     </task>
     <servers />
   </component>
@@ -137,37 +132,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="468" y="55" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587635071509" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587637380918">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587639353164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587637380918">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587639353164" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587639353164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587637380918">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587639353164" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587639353163">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587637380918">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587639353163" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587639353164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
-    <state width="1323" height="179" key="GridCell.Tab.1.bottom" timestamp="1587637380919">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587639353164" />
+    <state width="1323" height="179" key="GridCell.Tab.1.bottom" timestamp="1587639353164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587637380919" />
-    <state width="1323" height="179" key="GridCell.Tab.1.center" timestamp="1587637380918">
+    <state width="1323" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587639353164" />
+    <state width="1323" height="179" key="GridCell.Tab.1.center" timestamp="1587639353164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
-    <state width="1323" height="179" key="GridCell.Tab.1.left" timestamp="1587637380918">
+    <state width="1323" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587639353164" />
+    <state width="1323" height="179" key="GridCell.Tab.1.left" timestamp="1587639353164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
-    <state width="1323" height="179" key="GridCell.Tab.1.right" timestamp="1587637380918">
+    <state width="1323" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587639353164" />
+    <state width="1323" height="179" key="GridCell.Tab.1.right" timestamp="1587639353164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
+    <state width="1323" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587639353164" />
   </component>
 </project>
