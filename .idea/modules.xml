@@ -3,11 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/commons/common.iml" filepath="$PROJECT_DIR$/commons/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons-user/commons-user.iml" filepath="$PROJECT_DIR$/commons-user/commons-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices-items/microservice-items.iml" filepath="$PROJECT_DIR$/microservices-items/microservice-items.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices-user/microservice-user.iml" filepath="$PROJECT_DIR$/microservices-user/microservice-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservices.iml" filepath="$PROJECT_DIR$/.idea/microservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices-products/microservices-products.iml" filepath="$PROJECT_DIR$/microservices-products/microservices-products.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-oauth/service-oauth.iml" filepath="$PROJECT_DIR$/service-oauth/service-oauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />
     </modules>
   </component>

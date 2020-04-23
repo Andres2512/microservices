@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/commons-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons-user/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-server/src/main/java" charset="UTF-8" />
@@ -11,6 +13,9 @@
     <file url="file://$PROJECT_DIR$/microservices-items/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-products/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-products/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-oauth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-server/src/main/resources" charset="UTF-8" />
   </component>

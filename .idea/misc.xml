@@ -8,8 +8,11 @@
       <list>
         <option value="$PROJECT_DIR$/commons/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/commons-user/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/service-oauth/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices-user/pom.xml" />
         <option value="$PROJECT_DIR$/microservices-items/pom.xml" />
         <option value="$PROJECT_DIR$/microservices-products/pom.xml" />
       </list>

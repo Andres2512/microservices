@@ -2,35 +2,43 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-items" />
+        <module name="eureka-server" />
+        <module name="commons-user" />
         <module name="common" />
         <module name="zuul-server" />
-        <module name="eureka-server" />
+        <module name="service-oauth" />
         <module name="config-server" />
+        <module name="microservice-user" />
         <module name="microservices-products" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="1.8" />
+      <module name="commons-user" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="microservice-items" target="1.8" />
+      <module name="microservice-user" target="1.8" />
       <module name="microservices-products" target="1.8" />
+      <module name="service-oauth" target="1.8" />
       <module name="zuul-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
+      <module name="commons-user" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="microservice-items" options="-parameters" />
+      <module name="microservice-user" options="-parameters" />
       <module name="microservices-products" options="-parameters" />
+      <module name="service-oauth" options="-parameters" />
       <module name="zuul-server" options="-parameters" />
     </option>
   </component>

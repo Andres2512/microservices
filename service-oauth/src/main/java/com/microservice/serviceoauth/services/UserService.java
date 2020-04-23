@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class UserService implements UserDetailsService {
+public class UserService implements IUserService, UserDetailsService {
 
     private Logger log = LoggerFactory.getLogger(UserService.class);
     private final UserFeignClient client;
@@ -40,5 +40,10 @@ public class UserService implements UserDetailsService {
 
         return new org.springframework.security.core.userdetails.User(user.getUsername(),user.getPassword(),user.getEnabled()
         ,true,true,true,authorities);
+    }
+
+    @Override
+    public User findByUserName(String username) {
+        return client.findByUsername(username);
     }
 }
