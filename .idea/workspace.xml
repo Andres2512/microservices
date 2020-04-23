@@ -2,62 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a594cdd6-7a25-4b68-a27c-218464cfd4e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_1_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/AuthorizationServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/SpringSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/services/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/0394b66f5793fa8333daf2be2f0c7fb049e7fb50" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1ba63f81923ab6bf147256c18c90296a555b14c1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d7fff4b73620565dffece5efc3cf5390c578893" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79dc111514cd58b9daf43b8fbb5c5c0771fb5119" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e30f960da64e724edb7bc5a6a0901aae2dea963" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bbc5a3cb409d7ff4d81ad16d12946e76f7bc3a69" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c319e076ad9b5da115c59f762de525714472696e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-user/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-user/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-user/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-user/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-user/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-user/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-user/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-user/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-user/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-user/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-user/src/main/java/com/microserviceuser/microserviceuser/MicroserviceUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-user/src/main/java/com/microserviceuser/microserviceuser/MicroserviceUserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-user/src/main/java/com/microserviceuser/microserviceuser/config/RepositoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-user/src/main/java/com/microserviceuser/microserviceuser/config/RepositoryConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-user/src/main/java/com/microserviceuser/microserviceuser/models/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-user/src/main/java/com/microserviceuser/microserviceuser/models/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-user/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-user/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-user/src/main/resources/import.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-user/src/test/java/com/microserviceuser/microserviceuser/MicroserviceUserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-user/src/test/java/com/microserviceuser/microserviceuser/MicroserviceUserApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/ServiceOauthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/ServiceOauthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oauth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/client/UserFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/client/UserFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/AuthorizationServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/event/AuthenticationSuccessErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/security/event/AuthenticationSuccessErrorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/services/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/services/IUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/java/com/microservice/serviceoauth/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oauth/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-oauth/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/microservices/zuulserver/zuulserver/oauth/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/microservices/zuulserver/zuulserver/oauth/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +22,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,10 +44,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zuul-server/src/main/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Microservices\microservices\zuul-server\src\main\resources" />
+      <recent name="D:\Microservices\microservices\service-oauth\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ZuulServerApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -147,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587626402997</updated>
-      <workItem from="1587626408350" duration="1854000" />
+      <workItem from="1587626408350" duration="10799000" />
     </task>
     <servers />
   </component>
@@ -155,41 +129,45 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1587627297166">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1587635400124">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587627297166" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587628209260">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587635400124" />
+    <state x="468" y="55" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1587635071509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587628209260" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587628209260">
+    <state x="468" y="55" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587635071509" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587637380918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587628209260" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587628209260">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587637380918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587628209260" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587628209260">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587637380918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587628209260" />
-    <state width="1323" height="179" key="GridCell.Tab.1.bottom" timestamp="1587628209261">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587637380918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587628209261" />
-    <state width="1323" height="179" key="GridCell.Tab.1.center" timestamp="1587628209261">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
+    <state width="1323" height="179" key="GridCell.Tab.1.bottom" timestamp="1587637380919">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587628209261" />
-    <state width="1323" height="179" key="GridCell.Tab.1.left" timestamp="1587628209261">
+    <state width="1323" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587637380919" />
+    <state width="1323" height="179" key="GridCell.Tab.1.center" timestamp="1587637380918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587628209261" />
-    <state width="1323" height="179" key="GridCell.Tab.1.right" timestamp="1587628209261">
+    <state width="1323" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
+    <state width="1323" height="179" key="GridCell.Tab.1.left" timestamp="1587637380918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587628209261" />
+    <state width="1323" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
+    <state width="1323" height="179" key="GridCell.Tab.1.right" timestamp="1587637380918">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587637380918" />
   </component>
 </project>
