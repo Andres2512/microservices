@@ -28,10 +28,12 @@ public class User implements Serializable {
     @Column(unique = true, length = 100)
     private String email;
 
+    private Integer intent;
+
     @ManyToMany(fetch = FetchType.LAZY)
-    @JoinTable(name = " user_to_role",joinColumns = @JoinColumn(name = "id_user")
-            ,inverseJoinColumns = @JoinColumn(name = "id_role"),
-            uniqueConstraints = {@UniqueConstraint(columnNames = {"id_user","id_role"})})
+    @JoinTable(name = " user_to_role", joinColumns = @JoinColumn(name = "id_user")
+            , inverseJoinColumns = @JoinColumn(name = "id_role"),
+            uniqueConstraints = {@UniqueConstraint(columnNames = {"id_user", "id_role"})})
     private List<Role> roles;
 
     private static final long serialVersionUID = 1L;
