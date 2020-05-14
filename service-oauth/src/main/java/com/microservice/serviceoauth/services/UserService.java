@@ -1,5 +1,6 @@
 package com.microservice.serviceoauth.services;
 
+import brave.Tracer;
 import com.microservice.commonsuser.models.entity.User;
 import com.microservice.serviceoauth.client.UserFeignClient;
 import feign.FeignException;
@@ -20,9 +21,11 @@ public class UserService implements IUserService, UserDetailsService {
 
     private Logger log = LoggerFactory.getLogger(UserService.class);
     private final UserFeignClient client;
+    private final Tracer trace;
 
-    public UserService(UserFeignClient client) {
+    public UserService(UserFeignClient client, Tracer trace) {
         this.client = client;
+        this.trace = trace;
     }
 
     @Override
@@ -41,7 +44,10 @@ public class UserService implements IUserService, UserDetailsService {
             return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), user.getEnabled()
                     , true, true, true, authorities);
         } catch (FeignException u) {
-            log.error("Error en el login, no existe el usuario: '" + s + "'en el sistema");
+            String error = "Error en el login, no existe el usuario: '" + s + "'en el sistema";
+            log.error(error);
+
+            trace.currentSpan().tag("error.mensaje",error + ". " + u.getMessage());
             throw new UsernameNotFoundException("Error en el login, no existe el usuario: '" + s + "'en el sistema");
 
         }

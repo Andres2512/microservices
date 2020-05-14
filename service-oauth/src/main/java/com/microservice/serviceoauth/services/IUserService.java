@@ -1,8 +1,7 @@
 package com.microservice.serviceoauth.services;
 
 import com.microservice.commonsuser.models.entity.User;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
+
 
 public interface IUserService {
 
